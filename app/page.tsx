@@ -1,7 +1,19 @@
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import AboutMe from "@/components/AboutMe";
+import Practices from "@/components/Practices";
+import Consultations from "@/components/Consultations";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      HOMEPAGE
-    </section>
+    <>
+      <Navigation />
+      <Hero />
+      <AboutMe />
+      <Consultations />
+      <Practices />
+      <Footer />
+    </>
   );
 }

@@ -38,9 +38,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="bg">
       <body className={`${sansation.className} antialiased`}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-            {children}
-          </main>
+          <main>{children}</main>
         </Providers>
       </body>
     </html>
